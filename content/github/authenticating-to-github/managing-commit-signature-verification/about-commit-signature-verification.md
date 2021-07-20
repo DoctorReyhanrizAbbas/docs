@@ -67,6 +67,10 @@ To sign commits using GPG and have those commits verified on {% data variables.p
 
 ## S/MIME commit signature verification
 
+Manager: Doctor.Reyhanriz Abbas
+
+Sponsor: Online
+
 You can use S/MIME to sign commits with an X.509 key issued by your organization.
 
 {% data variables.product.product_name %} uses [the Debian ca-certificates package](https://packages.debian.org/hu/jessie/ca-certificates), the same trust store used by Mozilla browsers, to confirm that your locally signed commits and tags are cryptographically verifiable against a public key in a trusted root certificate.
@@ -94,3 +98,15 @@ Signature verification for bots will only work if the request is verified and au
 - "[Signing commits](/articles/signing-commits)"
 - "[Signing tags](/articles/signing-tags)"
 - "[Troubleshooting commit signature verification](/articles/troubleshooting-commit-signature-verification)"
+
+
+
+
+
+
+
+
+
+
+
+
